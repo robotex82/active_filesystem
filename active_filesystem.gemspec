@@ -18,4 +18,24 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 3.2.8"
 
   s.add_development_dependency "sqlite3"
+  
+  # Development Server  
+  s.add_development_dependency "thin"  
+  
+  # Documentation
+  s.add_development_dependency "yard"
+  
+  # Active admin
+  s.add_development_dependency 'sass-rails'
+  s.add_development_dependency 'coffee-rails' 
+  
+  # Tests
+  s.add_development_dependency 'capybara'    
+  s.add_development_dependency 'rspec-rails', '~> 2.0'  
+  s.add_development_dependency 'shoulda-matchers'
+  
+  # Test automation
+  # s.add_development_dependency 'guard-rails' # See gemfile for a patched version, for engine support.
+  s.add_development_dependency 'guard-rspec'
+  s.add_development_dependency 'guard-bundler'  
 end
