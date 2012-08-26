@@ -7,11 +7,11 @@ require "active_filesystem/version"
 Gem::Specification.new do |s|
   s.name        = "active_filesystem"
   s.version     = ActiveFilesystem::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActiveFilesystem."
-  s.description = "TODO: Description of ActiveFilesystem."
+  s.authors     = ["Roberto Vasquez Angel"]
+  s.email       = ["roberto@vasquez-angel.de"]
+  s.homepage    = "https://github.com/robotex82/active_filesystem"
+  s.summary     = "Rails file system access via ActiveModel."
+  s.description = "Rails file system access via ActiveModel."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
